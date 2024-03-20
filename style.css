@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+h1{
+  color: white;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+
+body{
+    background-image: url("https://wallpapercave.com/wp/wp3049982.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+}
+
+
+.container{
+    background-color:linear;
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    height: 650px;
+    padding: 20px;
+    align-self: center;
+    border-radius: 50px;
+}
+
+
+.row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container>.row{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.pic{
+    border-radius: 50%;
+    border: 2px solid greenyellow;
+}
+
+
+.name{
+    color: yellow;
+    font-size:xx-large;
+    font-style:italic;
+}
+
+
+.score{
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 20px;
+    align-self: center;
+}
+
+
+.goals{
+    color: lightgoldenrodyellow;
+    font-size: x-large;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+
+#strike{
+    background-color: darkblue;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+#try{
+    background-color: darkblue;
+    font-size: larger;
+    width:300px;
+    height:150 px;
+    color:white;
+    margin-top: 50px;
+    border-radius: 25px;
+    outline: none;
+}
+
+
+#square{
+    display: inline-block;
+}
+
+
+#result{
+    background-image: linear-gradient(to right,blue,red);
+    font-size: x-large;
+    color:white;
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 50px;
+}
+
+
+#team1scores{
+    margin-top: 20px;
+}
